@@ -4,44 +4,40 @@ import { ExternalLink, Github, ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Banking system",
     description:
-      "A full-stack e-commerce solution with real-time inventory management, secure payment processing, and an optimized product catalog with server-side rendering.",
+      "This is a Banking system technology, that is a simple example of real banking system.",
     tech: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
-    github: "https://github.com",
+    github: "https://github.com/wolfwalkerpd/Banking-system",
     status: "DEPLOYED",
-    image:
-      "https://media.base44.com/images/public/6a3ec4e1af6cd3f2d62abadd/629cf1497_generated_image.png",
+    image: "/financialAnalytic.png",
   },
   {
-    title: "Task Management System",
+    title: "Library System",
     description:
-      "A collaborative task management application with real-time updates, role-based access control, and a Kanban-style workflow board for team productivity.",
+      "A modern web application built with Next.js that allows users to discover, organize, and track their reading collections. Features a responsive UI, real-time search, and dynamic categorization for a seamless digital reading experience.",
     tech: ["PHP", "PostgreSQL", "Tailwind CSS", "REST API"],
-    github: "https://github.com",
+    github: "https://github.com/wolfwalkerpd/library-university",
     status: "ACTIVE",
-    image:
-      "https://media.base44.com/images/public/6a3ec4e1af6cd3f2d62abadd/7a7381d6d_generated_image.png",
+    image: "/library.png",
   },
   {
-    title: "API Gateway Service",
+    title: "Live Collaborative editor",
     description:
-      "A centralized API gateway for microservices architecture with rate limiting, authentication middleware, request logging, and comprehensive documentation.",
+      "A production-ready live document editing platform inspired by Google Docs, built with Next.js. Features instantaneous multi-user collaboration, presence indicators, and synchronous text editing, delivering a smooth, zero-latency desktop experience in the browser.",
     tech: ["Next.js", "TypeScript", "Postman", "Git"],
-    github: "https://github.com",
+    github: "https://github.com/wolfwalkerpd/collaborative-editor",
     status: "IN DEVELOPMENT",
-    image:
-      "https://media.base44.com/images/public/6a3ec4e1af6cd3f2d62abadd/e8d35eaf7_generated_image.png",
+    image: "/live.png",
   },
   {
-    title: "Portfolio Dashboard",
+    title: "Hospital Appointment",
     description:
-      "An analytics dashboard providing real-time insights into web performance, SEO metrics, and user engagement data with interactive data visualizations.",
+      "A modern full-stack web application built with Next.js designed to streamline patient booking and hospital workflows. Features dynamic doctor availability tracking, real-time schedule filtering, and an intuitive multi-step booking interface optimized for patient care.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"],
-    github: "https://github.com",
+    github: "https://github.com/wolfwalkerpd/Hospital-appointment",
     status: "DEPLOYED",
-    image:
-      "https://media.base44.com/images/public/6a3ec4e1af6cd3f2d62abadd/e95af1f07_generated_image.png",
+    image: "dr.png",
   },
 ];
 
